@@ -1,5 +1,6 @@
 qemu-guest-agent:
-  image: ${REGISTRY_DOMAIN}/rancher/os-qemuguestagent:v2.8.1-2
+        #  image: ${REGISTRY_DOMAIN}/rancher/os-qemuguestagent:v2.8.1-2
+  image: ${REGISTRY_DOMAIN}/wanghl041/os-qemuguestagent:v2.8.1-1211
   command: /usr/local/bin/run
   privileged: true
   restart: always
